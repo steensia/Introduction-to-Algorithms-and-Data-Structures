@@ -1,2 +1,2 @@
-# Introduction_to_Algorithms_and_Data_Structures
+# Introduction to Algorithms and Data Structures
 CS 2420 Introduction to Algorithms and Data Structures Assignments
