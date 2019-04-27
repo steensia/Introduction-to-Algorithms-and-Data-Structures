@@ -1,0 +1,18 @@
+	public int getChildCount()
+	{
+		return getChildCount(root);
+	}
+
+	private static int getChildCount(Node r)
+	{
+		if(r.children.size() == 0)
+		{
+			return 0;
+		}	
+		for(Node n: r.children)
+		{
+			childCount += n.children.size();
+			getChildCount(n);
+		}
+		return childCount + r.children.size();
+	}
